@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAccountsReceivableQB" targetNamespace="http://tempuri.org/dsAccountsReceivableQB.xsd" xmlns:mstns="http://tempuri.org/dsAccountsReceivableQB.xsd" xmlns="http://tempuri.org/dsAccountsReceivableQB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAccountsReceivableQB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsAccountsReceivableQB" msprop:Generator_UserDSName="dsAccountsReceivableQB" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AccountsReceivableQB" msprop:Generator_UserTableName="AccountsReceivableQB" msprop:Generator_RowDeletedName="AccountsReceivableQBRowDeleted" msprop:Generator_TableClassName="AccountsReceivableQBDataTable" msprop:Generator_RowChangedName="AccountsReceivableQBRowChanged" msprop:Generator_RowClassName="AccountsReceivableQBRow" msprop:Generator_RowChangingName="AccountsReceivableQBRowChanging" msprop:Generator_RowEvArgName="AccountsReceivableQBRowChangeEvent" msprop:Generator_RowEvHandlerName="AccountsReceivableQBRowChangeEventHandler" msprop:Generator_TablePropName="AccountsReceivableQB" msprop:Generator_TableVarName="tableAccountsReceivableQB" msprop:Generator_RowDeletingName="AccountsReceivableQBRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="ListID4" msprop:Generator_UserColumnName="ListID4" msprop:Generator_ColumnPropNameInRow="ListID4" msprop:Generator_ColumnVarNameInTable="columnListID4" msprop:Generator_ColumnPropNameInTable="ListID4Column" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeCreated5" msprop:Generator_UserColumnName="TimeCreated5" msprop:Generator_ColumnPropNameInRow="TimeCreated5" msprop:Generator_ColumnVarNameInTable="columnTimeCreated5" msprop:Generator_ColumnPropNameInTable="TimeCreated5Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeModified6" msprop:Generator_UserColumnName="TimeModified6" msprop:Generator_ColumnPropNameInRow="TimeModified6" msprop:Generator_ColumnVarNameInTable="columnTimeModified6" msprop:Generator_ColumnPropNameInTable="TimeModified6Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EditSequence7" msprop:Generator_UserColumnName="EditSequence7" msprop:Generator_ColumnPropNameInRow="EditSequence7" msprop:Generator_ColumnVarNameInTable="columnEditSequence7" msprop:Generator_ColumnPropNameInTable="EditSequence7Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Name8" msprop:Generator_UserColumnName="Name8" msprop:Generator_ColumnPropNameInRow="Name8" msprop:Generator_ColumnVarNameInTable="columnName8" msprop:Generator_ColumnPropNameInTable="Name8Column" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName9" msprop:Generator_UserColumnName="FullName9" msprop:Generator_ColumnPropNameInRow="FullName9" msprop:Generator_ColumnVarNameInTable="columnFullName9" msprop:Generator_ColumnPropNameInTable="FullName9Column" type="xs:string" minOccurs="0" />
+              <xs:element name="IsActive10" msprop:Generator_UserColumnName="IsActive10" msprop:Generator_ColumnPropNameInRow="IsActive10" msprop:Generator_ColumnVarNameInTable="columnIsActive10" msprop:Generator_ColumnPropNameInTable="IsActive10Column" type="xs:int" minOccurs="0" />
+              <xs:element name="ListID11" msprop:Generator_UserColumnName="ListID11" msprop:Generator_ColumnPropNameInRow="ListID11" msprop:Generator_ColumnVarNameInTable="columnListID11" msprop:Generator_ColumnPropNameInTable="ListID11Column" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName12" msprop:Generator_UserColumnName="FullName12" msprop:Generator_ColumnPropNameInRow="FullName12" msprop:Generator_ColumnVarNameInTable="columnFullName12" msprop:Generator_ColumnPropNameInTable="FullName12Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Sublevel13" msprop:Generator_UserColumnName="Sublevel13" msprop:Generator_ColumnPropNameInRow="Sublevel13" msprop:Generator_ColumnVarNameInTable="columnSublevel13" msprop:Generator_ColumnPropNameInTable="Sublevel13Column" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountType14" msprop:Generator_UserColumnName="AccountType14" msprop:Generator_ColumnPropNameInRow="AccountType14" msprop:Generator_ColumnVarNameInTable="columnAccountType14" msprop:Generator_ColumnPropNameInTable="AccountType14Column" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountNumber16" msprop:Generator_UserColumnName="AccountNumber16" msprop:Generator_ColumnPropNameInRow="AccountNumber16" msprop:Generator_ColumnVarNameInTable="columnAccountNumber16" msprop:Generator_ColumnPropNameInTable="AccountNumber16Column" type="xs:string" minOccurs="0" />
+              <xs:element name="BankNumber17" msprop:Generator_UserColumnName="BankNumber17" msprop:Generator_ColumnPropNameInRow="BankNumber17" msprop:Generator_ColumnVarNameInTable="columnBankNumber17" msprop:Generator_ColumnPropNameInTable="BankNumber17Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Desc18" msprop:Generator_UserColumnName="Desc18" msprop:Generator_ColumnPropNameInRow="Desc18" msprop:Generator_ColumnVarNameInTable="columnDesc18" msprop:Generator_ColumnPropNameInTable="Desc18Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Balance19" msprop:Generator_UserColumnName="Balance19" msprop:Generator_ColumnPropNameInRow="Balance19" msprop:Generator_ColumnVarNameInTable="columnBalance19" msprop:Generator_ColumnPropNameInTable="Balance19Column" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalBalance20" msprop:Generator_UserColumnName="TotalBalance20" msprop:Generator_ColumnPropNameInRow="TotalBalance20" msprop:Generator_ColumnVarNameInTable="columnTotalBalance20" msprop:Generator_ColumnPropNameInTable="TotalBalance20Column" type="xs:double" minOccurs="0" />
+              <xs:element name="TaxLineID21" msprop:Generator_UserColumnName="TaxLineID21" msprop:Generator_ColumnPropNameInRow="TaxLineID21" msprop:Generator_ColumnVarNameInTable="columnTaxLineID21" msprop:Generator_ColumnPropNameInTable="TaxLineID21Column" type="xs:int" minOccurs="0" />
+              <xs:element name="TaxLineName22" msprop:Generator_UserColumnName="TaxLineName22" msprop:Generator_ColumnPropNameInRow="TaxLineName22" msprop:Generator_ColumnVarNameInTable="columnTaxLineName22" msprop:Generator_ColumnPropNameInTable="TaxLineName22Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ListID24" msprop:Generator_UserColumnName="ListID24" msprop:Generator_ColumnPropNameInRow="ListID24" msprop:Generator_ColumnVarNameInTable="columnListID24" msprop:Generator_ColumnPropNameInTable="ListID24Column" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName25" msprop:Generator_UserColumnName="FullName25" msprop:Generator_ColumnPropNameInRow="FullName25" msprop:Generator_ColumnVarNameInTable="columnFullName25" msprop:Generator_ColumnPropNameInTable="FullName25Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AccountsReceivableQB" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

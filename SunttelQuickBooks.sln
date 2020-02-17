@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SunttelQuickBooks", "SunttelQuickBooks\SunttelQuickBooks.vbproj", "{B738B6CC-DB36-42D4-A742-39BFABC9E47E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SunttelQuickBooksDLL", "SunttelQuickBooksDLL\SunttelQuickBooksDLL.vbproj", "{2DC54791-F327-40FA-B7CF-A9F9C51C7C7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B738B6CC-DB36-42D4-A742-39BFABC9E47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B738B6CC-DB36-42D4-A742-39BFABC9E47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B738B6CC-DB36-42D4-A742-39BFABC9E47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B738B6CC-DB36-42D4-A742-39BFABC9E47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC54791-F327-40FA-B7CF-A9F9C51C7C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC54791-F327-40FA-B7CF-A9F9C51C7C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC54791-F327-40FA-B7CF-A9F9C51C7C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC54791-F327-40FA-B7CF-A9F9C51C7C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAllTransactions" targetNamespace="http://tempuri.org/dsAllTransactions.xsd" xmlns:mstns="http://tempuri.org/dsAllTransactions.xsd" xmlns="http://tempuri.org/dsAllTransactions.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAllTransactions" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAllTransactions" msprop:Generator_DataSetName="dsAllTransactions" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QBAllTransactions" msprop:Generator_UserTableName="QBAllTransactions" msprop:Generator_RowDeletedName="QBAllTransactionsRowDeleted" msprop:Generator_RowChangedName="QBAllTransactionsRowChanged" msprop:Generator_RowClassName="QBAllTransactionsRow" msprop:Generator_RowChangingName="QBAllTransactionsRowChanging" msprop:Generator_RowEvArgName="QBAllTransactionsRowChangeEvent" msprop:Generator_RowEvHandlerName="QBAllTransactionsRowChangeEventHandler" msprop:Generator_TableClassName="QBAllTransactionsDataTable" msprop:Generator_TableVarName="tableQBAllTransactions" msprop:Generator_RowDeletingName="QBAllTransactionsRowDeleting" msprop:Generator_TablePropName="QBAllTransactions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Customer" msprop:Generator_UserColumnName="Customer" msprop:Generator_ColumnPropNameInRow="Customer" msprop:Generator_ColumnVarNameInTable="columnCustomer" msprop:Generator_ColumnPropNameInTable="CustomerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RefNumber" msprop:Generator_UserColumnName="RefNumber" msprop:Generator_ColumnPropNameInRow="RefNumber" msprop:Generator_ColumnVarNameInTable="columnRefNumber" msprop:Generator_ColumnPropNameInTable="RefNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_UserColumnName="Fecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AppliedAmount" msprop:Generator_UserColumnName="AppliedAmount" msprop:Generator_ColumnPropNameInRow="AppliedAmount" msprop:Generator_ColumnVarNameInTable="columnAppliedAmount" msprop:Generator_ColumnPropNameInTable="AppliedAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TipoMvto" msprop:Generator_UserColumnName="TipoMvto" msprop:Generator_ColumnPropNameInRow="TipoMvto" msprop:Generator_ColumnVarNameInTable="columnTipoMvto" msprop:Generator_ColumnPropNameInTable="TipoMvtoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IDClientes" msprop:Generator_UserColumnName="IDClientes" msprop:Generator_ColumnVarNameInTable="columnIDClientes" msprop:Generator_ColumnPropNameInRow="IDClientes" msprop:Generator_ColumnPropNameInTable="IDClientesColumn" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="QBAllTransactionsKey1">
+      <xs:selector xpath=".//mstns:QBAllTransactions" />
+      <xs:field xpath="mstns:Customer" />
+      <xs:field xpath="mstns:RefNumber" />
+      <xs:field xpath="mstns:Fecha" />
+      <xs:field xpath="mstns:TipoMvto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

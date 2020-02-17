@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsARSummary" targetNamespace="http://tempuri.org/dsARSummary.xsd" xmlns:mstns="http://tempuri.org/dsARSummary.xsd" xmlns="http://tempuri.org/dsARSummary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsARSummary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsARSummary" msprop:Generator_UserDSName="dsARSummary" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QBARSummary" msprop:Generator_UserTableName="QBARSummary" msprop:Generator_RowDeletedName="QBARSummaryRowDeleted" msprop:Generator_TableClassName="QBARSummaryDataTable" msprop:Generator_RowChangedName="QBARSummaryRowChanged" msprop:Generator_RowClassName="QBARSummaryRow" msprop:Generator_RowChangingName="QBARSummaryRowChanging" msprop:Generator_RowEvArgName="QBARSummaryRowChangeEvent" msprop:Generator_RowEvHandlerName="QBARSummaryRowChangeEventHandler" msprop:Generator_TablePropName="QBARSummary" msprop:Generator_TableVarName="tableQBARSummary" msprop:Generator_RowDeletingName="QBARSummaryRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="TipoDocto" msprop:Generator_UserColumnName="TipoDocto" msprop:Generator_ColumnPropNameInRow="TipoDocto" msprop:Generator_ColumnVarNameInTable="columnTipoDocto" msprop:Generator_ColumnPropNameInTable="TipoDoctoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaDoc" msprop:Generator_UserColumnName="FechaDoc" msprop:Generator_ColumnPropNameInRow="FechaDoc" msprop:Generator_ColumnVarNameInTable="columnFechaDoc" msprop:Generator_ColumnPropNameInTable="FechaDocColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Cliente" msprop:Generator_UserColumnName="Cliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha2" msprop:Generator_UserColumnName="Fecha2" msprop:Generator_ColumnPropNameInRow="Fecha2" msprop:Generator_ColumnVarNameInTable="columnFecha2" msprop:Generator_ColumnPropNameInTable="Fecha2Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TipoDeuda" msprop:Generator_UserColumnName="TipoDeuda" msprop:Generator_ColumnPropNameInRow="TipoDeuda" msprop:Generator_ColumnVarNameInTable="columnTipoDeuda" msprop:Generator_ColumnPropNameInTable="TipoDeudaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Col10" msprop:Generator_UserColumnName="Col10" msprop:Generator_ColumnPropNameInRow="Col10" msprop:Generator_ColumnVarNameInTable="columnCol10" msprop:Generator_ColumnPropNameInTable="Col10Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Valor" msprop:Generator_UserColumnName="Valor" msprop:Generator_ColumnPropNameInRow="Valor" msprop:Generator_ColumnVarNameInTable="columnValor" msprop:Generator_ColumnPropNameInTable="ValorColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:QBARSummary" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
